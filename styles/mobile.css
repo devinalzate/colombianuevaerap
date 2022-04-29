@@ -1,0 +1,292 @@
+:root {
+    --azul-oscuro: #040017;
+    --azul-claro: #0D0764;
+    --rojo-oscuro: #180004;
+    --rojo-claro: #4E0001;
+    --morado-oscuro: #2F0F3E;
+    --morado-claro: #53006F;
+    --amarillo: #d89300;
+    --amarillo-blanco: #d0a947;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+    font-family: "Source Sans Pro", sans-serif;
+}
+body {
+    background: linear-gradient(178.33deg, #180004 7.24%, #0D0764 40.35%, #52006D 57.58%, #180004 89.37%);
+    height: 100vh;
+}
+.menu-header {
+    min-width: 300px;
+    height: 45px;
+    margin: 10px;
+    justify-content: center;
+}
+.menu-header li {
+    display: inline;
+    text-align: center;
+    margin: 20px;
+    padding: 13.5px;
+    list-style: none;
+    width: 100vw;
+}
+.menu-header .a-identidad {
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    background-image: url('./assets/icons/help-circle.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.menu-header .a-experiencia {
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    background-image: url('./assets/icons/check-square.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.menu-header .a-clientes {
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    background-image: url('./assets/icons/award.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.menu-header .a-contacto {
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    background-image: url('./assets/icons/at-sign.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header .img-header {
+    position: absolute;
+    top: 125px;
+    min-width: 100vw;
+    min-height: 340px;
+    background-image: url('./assets/img/imh_header.jpg');
+    background-position: calc(26.5%);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+main {
+    display: block;
+    position: absolute;
+    width: 100vw;
+    height: 1390px;
+    top: 555px;
+    justify-content: center;
+    margin: 0 auto;
+}
+main #identidad {
+    position: absolute;
+    width: 96.5vw;
+    height: 440px;
+    margin: 70px 6px;
+    background: rgba(24, 0, 4, 0.68);
+    box-shadow: -1px 19px 14px rgba(0, 0, 0, 0.69);
+    border-radius: 23px;
+}
+main #identidad h1 {
+    position: absolute;
+    margin-top: 10px;
+    width: 205px;
+    height: 79.19px;
+    left: calc(50% - 107px);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.8rem;
+    line-height: 35px;
+    text-align: center;
+    color: var(--amarillo);
+}
+main #identidad .texto {
+    position: absolute;
+    width: 211px;
+    height: 94.59px;
+    left: calc(50% - 105px);
+    top: calc(23% - 5px);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 23px;
+    text-align: center;
+    color: var(--amarillo-blanco);
+}
+main #identidad .texto ul {
+    position: absolute;
+    left: calc(50% - 80px);
+    text-align: left;
+    margin-top: 10px;
+    list-style: inside;
+    line-height: 2.4rem;
+}
+main #identidad .img-identidad {
+    display: block;
+    align-items: center;
+    position: absolute;
+    background-image: url('./assets/img/img_identidad.jpg');
+    height: 200px;
+    width: 93vw;
+    left: 6px;
+    top: calc(55% - 8px);
+    border-radius: 16px;
+    background-position:  center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+main #identidad .ver-mas {
+    position: absolute;
+    top: 422px;
+    left: calc(50% - 60px);
+    width: 110px;
+    height: 35px;
+    background-image: url('./assets/icons/ver-mas.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+main #experiencia {
+    position: absolute;
+    top: 485px;
+    width: 96.5vw;
+    height: 416px;
+    margin: 70px 6px;
+    background: linear-gradient(180deg, rgba(164, 136, 64, 0.94) 19.06%, rgba(208, 55, 161, 0.89) 100%);
+    box-shadow: -1px 19px 14px rgba(0, 0, 0, 0.69);
+    border-radius: 23px;   
+}
+main #experiencia h1 {
+    text-align: center;
+    margin-top: 5px;
+    font-size: 2.6rem;
+    font-weight: 700;
+    line-height: 33px;
+    color: var(--morado-oscuro);
+}
+main #experiencia .exp-texto {
+    position: absolute;
+    width: 142px;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 10px;
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 35px;
+    color: var(--morado-claro);
+}
+main #experiencia .img-experiencia {
+    position: absolute;
+    width: 40vw;
+    height: 260px;
+    border-radius: 16px;
+    background-image: url('./assets/img/img_experiencia.jpg');
+    left: calc(65% - 25px);
+    top: calc(30% - 25px);
+    border-radius: 16px;
+    background-position:  center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+main #experiencia .ver-mas {
+    position: absolute;
+    top: 395px;
+    left: calc(50% - 60px);
+    width: 110px;
+    height: 35px;
+    background-image: url('./assets/icons/ver-mas.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+main #clientes {
+    position: absolute;
+    width: 96.5vw;
+    height: 339px;
+    left: 5px;
+    top: 1015px;
+    background: rgba(78, 0, 1, 0.71);
+    box-shadow: -1px 19px 14px rgba(0, 0, 0, 0.69);
+    border-radius: 23px;
+}
+main #clientes h1 {
+    text-align: center;
+    margin-top: 5px;
+    font-size: 2.6rem;
+    font-weight: bold;
+    line-height: 32.70px;
+    color: var(--amarillo-blanco);
+}
+main #clientes .rancho {
+    position: absolute;
+    width: 300px;
+    height: 241px;
+    background-image: url('./assets/img/fotos-clientes.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+main #clientes .ver-mas {
+    position: absolute;
+    top: 320px;
+    left: calc(50% - 60px);
+    width: 110px;
+    height: 35px;
+    background-image: url('./assets/icons/ver-mas.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+footer {
+    position: absolute;
+    top: 1945px;
+    min-width: 320px;
+    height: 70px;
+    background-color: var(--morado-oscuro);
+}
+footer #contacto {
+    position: absolute;
+    top: 18px;
+    left: 15px;
+    width: 147px;
+    height: 29px;
+    background-image: url('./assets/img/¡Contactanos!.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+footer .inst {
+    position: absolute;
+    left: 170px;
+    width: 30px;
+    height: 30px;
+    background-image: url('./assets/icons/instagram.svg');
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+footer .what {
+    position: absolute;
+    left: 220px;
+    width: 30px;
+    height: 30px;
+    background-image: url('./assets/icons/phone.svg');
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+footer .face {
+    position: absolute;
+    left: 265px;
+    width: 30px;
+    height: 30px;
+    background-image: url('./assets/icons/facebook.svg');
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
