@@ -1,0 +1,44 @@
+/* width: 425px */
+header .img-header {
+    top: 87px;
+    height: 454px;
+}
+main #identidad h1 {
+    font-size: 3.6rem;
+}
+main #experiencia {
+    height: 480px;
+}
+main #experiencia .exp-texto {
+    width: 170px;
+    margin-top: 3px;
+    margin-left: 45px;
+    font-size: 2.4rem;
+}
+main #experiencia .img-experiencia {
+    width: 45vw;
+    height: 320px;
+    left: calc(65% - 60px);
+}
+main #experiencia .ver-mas {
+    top: 461px;
+}
+main #clientes {
+    height: 360px;
+    /* max-width: 410.7px; */
+    top: 1071px;
+}
+main #clientes .rancho {
+    width: 388px;
+    height: 308px;
+    left: 10px;
+}
+main #clientes .ver-mas {
+    top: 343px;
+}
+footer {
+    top: 2018px;
+}
+footer #contacto {
+    left: 38px;
+}

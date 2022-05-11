@@ -1,0 +1,53 @@
+/* width: 800px */
+main #identidad {
+    height: 566px;
+    left: calc(50% - 380px);
+}
+main #identidad .img-identidad {
+    top: 185px;
+    height: 365px;
+    max-width: 744px;
+}
+main #identidad .ver-mas {
+    top: 550px;
+}
+main #experiencia {
+    top: 692px;
+    left: calc(60% - 30px);
+    height: 411px;
+    width: 44vw;
+    max-width: 510px;
+    margin: 0;
+}
+main #experiencia .exp-texto {
+    margin-top: 6px;
+    margin-left: 33px;
+}
+main #experiencia .img-experiencia {
+    top: calc(30% - -9px);
+    left: calc(65% - 17px);
+    width: 17vw;
+    height: 261px;
+}
+main #experiencia .ver-mas {
+    top: 395px;
+}
+main #clientes {
+    top: 692px;
+    left: 12px;
+    height: 411px;
+    width: 44vw;
+    max-width: 510px;
+}
+main #clientes .rancho {
+    width: 43vw;
+    height: 297px;
+    top: 60px;
+    left: 2px;
+}
+main #clientes .ver-mas {
+    top: 395px;
+}
+footer {
+    top: 1700px;
+}

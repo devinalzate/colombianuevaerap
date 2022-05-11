@@ -1,3 +1,4 @@
+/* width: 320px */
 :root {
     --azul-oscuro: #040017;
     --azul-claro: #0D0764;
@@ -19,13 +20,15 @@ html {
 }
 body {
     background: linear-gradient(178.33deg, #180004 7.24%, #0D0764 40.35%, #52006D 57.58%, #180004 89.37%);
-    height: 100vh;
+    height: 210vh;
 }
 .menu-header {
     min-width: 300px;
     height: 45px;
     margin: 10px;
-    justify-content: center;
+}
+.menu-header ul {
+    text-align: center;
 }
 .menu-header li {
     display: inline;
@@ -63,7 +66,7 @@ body {
     position: absolute;
     width: 36px;
     height: 36px;
-    background-image: url('./assets/icons/at-sign.svg');
+    background-image: url('./assets/icons/inbox.svg');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -71,7 +74,7 @@ header .img-header {
     position: absolute;
     top: 125px;
     min-width: 100vw;
-    min-height: 340px;
+    height: 340px;
     background-image: url('./assets/img/imh_header.jpg');
     background-position: calc(26.5%);
     background-size: cover;
@@ -80,8 +83,8 @@ header .img-header {
 main {
     display: block;
     position: absolute;
-    width: 100vw;
-    height: 1390px;
+    width: 95vw;
+    height: auto;
     top: 555px;
     justify-content: center;
     margin: 0 auto;
@@ -248,7 +251,7 @@ main #clientes .ver-mas {
 footer {
     position: absolute;
     top: 1945px;
-    min-width: 320px;
+    width: 100vw;
     height: 70px;
     background-color: var(--morado-oscuro);
 }
@@ -263,9 +266,17 @@ footer #contacto {
     background-position: center;
     background-repeat: no-repeat;
 }
+footer .icons {
+    display: inline;
+    position: absolute;
+    margin: 20px;
+    right: 130px;
+    text-align: center;
+    list-style: none;
+}
 footer .inst {
     position: absolute;
-    left: 170px;
+    list-style: none;
     width: 30px;
     height: 30px;
     background-image: url('./assets/icons/instagram.svg');
@@ -274,7 +285,8 @@ footer .inst {
 }
 footer .what {
     position: absolute;
-    left: 220px;
+    list-style: none;
+    margin-left: 48px;
     width: 30px;
     height: 30px;
     background-image: url('./assets/icons/phone.svg');
@@ -283,7 +295,8 @@ footer .what {
 }
 footer .face {
     position: absolute;
-    left: 265px;
+    list-style: none;
+    margin-left: 94px;
     width: 30px;
     height: 30px;
     background-image: url('./assets/icons/facebook.svg');

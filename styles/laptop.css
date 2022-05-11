@@ -1,0 +1,24 @@
+/* width: 1280px */
+main #identidad {
+    left: calc(50% - 368px);
+}
+main #experiencia .exp-texto {
+    margin-top: 13px;
+    margin-left: 51px;
+    width: 190px;
+}
+main #experiencia .img-experiencia {
+    top: calc(30% - 72px);
+    left: calc(65% - 91px);
+    width: 20vw;
+    height: 329px;
+}
+main #clientes {
+    left: 45px;
+}
+main #clientes .rancho {
+    width: 31vw;
+    height: 326px;
+    top: 57px;
+    left: 50px;
+}
