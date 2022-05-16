@@ -159,7 +159,7 @@ main #identidad .ver-mas {
 }
 main #experiencia {
     position: absolute;
-    top: 485px;
+    top: 567px;
     width: 96.5vw;
     height: 416px;
     margin: 70px 6px;
@@ -215,7 +215,7 @@ main #clientes {
     width: 96.5vw;
     height: 339px;
     left: 5px;
-    top: 1015px;
+    top: 1186px;
     background: rgba(78, 0, 1, 0.71);
     box-shadow: -1px 19px 14px rgba(0, 0, 0, 0.69);
     border-radius: 23px;
@@ -250,7 +250,7 @@ main #clientes .ver-mas {
 }
 footer {
     position: absolute;
-    top: 1945px;
+    top: 2122px;
     width: 100vw;
     height: 70px;
     background-color: var(--morado-oscuro);
