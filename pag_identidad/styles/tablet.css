@@ -1,0 +1,18 @@
+/* width: 600px */
+body {
+    height: 1669px;
+}
+header h1 {
+    font-size: 3.0rem;
+}
+header img {
+    margin-left: calc(50% - 207px);
+    border-radius: 27px;
+}
+.main_text .images .img_evento_2 {
+    margin-left: 36px;
+}
+.main_text .img_evento_3 {
+    min-width: 320px;
+    min-height: 200px;
+}

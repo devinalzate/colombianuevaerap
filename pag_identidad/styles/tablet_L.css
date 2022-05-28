@@ -1,0 +1,17 @@
+/* width: 768px */
+body {
+    height: 1765px;
+}
+.main_text .images {
+    justify-content: center;
+}
+.main_text .img_evento_3 {
+    justify-content: center;
+    top: 781px;
+    left: calc(50% - 199px);
+    width: 420px;
+    height: 300px;
+}
+.main_text .icon_back {
+    top: 341px;
+}

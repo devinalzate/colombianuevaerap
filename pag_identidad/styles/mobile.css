@@ -1,0 +1,107 @@
+/* width: 320px */
+:root {
+    --azul-oscuro: #040017;
+    --azul-claro: #0D0764;
+    --rojo-oscuro: #180004;
+    --rojo-claro: #4E0001;
+    --morado-oscuro: #2F0F3E;
+    --morado-claro: #53006F;
+    --amarillo: #d89300;
+    --amarillo-blanco: #d0a947;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+    font-family: "Source Sans Pro", sans-serif;
+}
+body {
+    background-image: radial-gradient(circle at 56.16% 120.44%, #fe58e8 0, #c94cd3 16.67%, #903cb4 33.33%, #56288c 50%, #1e1463 66.67%, #000040 83.33%, #000024 100%);
+    height: 2006px;
+}
+header {
+    position: relative;
+}
+header h1 {
+    color: var(--amarillo);
+    margin: 15px 0px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2rem;
+    text-align: center;
+}
+header img {
+    margin: 110px 0px;
+    min-width: 320px;
+    width: 100%;
+    max-width: 432px;
+    min-height: 250px;
+    height: calc(width - 102px);
+}
+.main_text {
+    position: relative;
+}
+
+.main_text .text_2 {
+    color: var(--amarillo-blanco);
+    margin: 0 auto;
+    text-align: center;
+    max-width: 350px;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 2.3rem;
+    -webkit-text-stroke: 0.7px var(--morado-claro);
+    border: 6px solid var(--rojo-claro);
+    border-radius: 9px;
+    padding: 14px;
+}
+.main_text .images {
+    display: flex;
+    flex-wrap: wrap;
+}
+.main_text .images .img_evento_1 {
+    margin-top: 121px;
+    margin-left: 12px;
+    border-radius: 27px;
+    width: 264px;
+    height: 227px;
+}
+.main_text .images .img_evento_2 {
+    margin-top: 121px;
+    margin-left: 36px;
+    border-radius: 27px;
+    width: 273px;
+    height: 227px;
+}
+.main_text .text_3 {
+    color: var(--amarillo-blanco);
+    margin: 90px auto;
+    text-align: center;
+    max-width: 350px;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 2.3rem;
+    -webkit-text-stroke: 0.7px var(--morado-claro);
+    border: 6px solid var(--rojo-claro);
+    border-radius: 9px;
+    padding: 14px;
+}
+.main_text .img_evento_3 {
+    position: absolute;
+    left: calc(50% - 153px);
+    margin-bottom: 40px;
+    border-radius: 27px;
+    width: 304px;
+    height: 170px;
+}
+.main_text .icon_back {
+    position: inherit;
+    top: 247px;
+    left: calc(50% - 105px);
+    padding: 10px;
+    width: 184.24px;
+    height: 71px;
+}
