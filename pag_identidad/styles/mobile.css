@@ -19,7 +19,7 @@ html {
     font-family: "Source Sans Pro", sans-serif;
 }
 body {
-    background-image: radial-gradient(circle at 56.16% 120.44%, #fe58e8 0, #c94cd3 16.67%, #903cb4 33.33%, #56288c 50%, #1e1463 66.67%, #000040 83.33%, #000024 100%);
+    background-color: var(--azul-oscuro);
     height: 2006px;
 }
 header {
@@ -34,7 +34,8 @@ header h1 {
     text-align: center;
 }
 header img {
-    margin: 110px 0px;
+    display: block;
+    margin: 110px auto;
     min-width: 320px;
     width: 100%;
     max-width: 432px;

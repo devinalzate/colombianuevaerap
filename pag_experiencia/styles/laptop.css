@@ -1,0 +1,13 @@
+/* width: 1250px */
+main p {
+    margin: 0;
+}
+main .first_text {
+    margin: 20px;
+}
+main .second_text p {
+    position: absolute;
+    top: 653px;
+    right: 0px;
+    margin-right: 20px;
+}

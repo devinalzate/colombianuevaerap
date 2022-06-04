@@ -1,0 +1,101 @@
+/* width: 320px */
+:root {
+    --azul-oscuro: #040017;
+    --azul-claro: #0D0764;
+    --rojo-oscuro: #180004;
+    --rojo-claro: #4E0001;
+    --rojo-cajas: #520310;
+    --morado-oscuro: #2F0F3E;
+    --morado-claro: #53006F;
+    --amarillo: #d89300;
+    --amarillo-blanco: #d0a947;
+    --amarillo-blanco-texto: #E3C16A;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+    font-family: "Source Sans Pro", sans-serif;
+}
+body {
+    background: linear-gradient(180deg, rgba(164, 136, 64, 0.94) 19.06%, rgba(126, 1, 88, 0.89) 100%);
+}
+header h1 {
+    margin: 7px;
+    color: var(--morado-oscuro);
+    text-align: center;
+    font-size: 2.8rem;
+    font-weight: 700;
+    min-width: 306px;
+}
+header section {
+    display: block;
+    text-align: center;
+}
+header section img {
+    margin: 137px 0px;
+    min-width: 320px;
+    width: 100%;
+    max-width: 600px;
+    min-height: 250px;
+    justify-content: center;
+    -webkit-box-shadow: -8px -4px 67px 47px rgba(0,0,0,0.75);
+    -moz-box-shadow: -8px -4px 67px 47px rgba(0,0,0,0.75);
+    box-shadow: -8px -4px 67px 30px rgba(0,0,0,0.75);
+}
+main p {
+    display: block;
+    margin: 0 auto;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 400;
+    font-style: italic;
+    padding: 20px;
+    border-radius: 27px;
+    line-height: 22.63px;
+    background-color: var(--rojo-cajas);
+    color: var(--amarillo-blanco-texto);
+    width: 95%;
+    max-width: 535.05px;
+}
+main .first_text {
+    margin: 20px;
+}
+main .first_text .button_contact {
+    display: block;
+    width: 191px;
+    text-align: center;
+    margin: 40px auto;
+}
+main .img_exp_1 img {
+    display: block;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 140px;
+    margin-bottom: 40px;
+    border-radius: 27px;
+    -webkit-box-shadow: 20px 35px 38px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 20px 35px 38px 0px rgba(0,0,0,0.75);
+    box-shadow: 20px 35px 38px 0px rgba(0,0,0,0.75);
+    min-width: 305px;
+    width: 95%;
+    max-width: 840px;
+    min-height: 203px;
+}
+main .second_text p {
+    margin-top: 166px;
+    margin-bottom: 20px;
+}
+main .button_come_back img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    width: 184.24px;
+    height: 71px;
+}
