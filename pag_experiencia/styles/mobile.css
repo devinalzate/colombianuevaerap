@@ -21,7 +21,8 @@ html {
     font-family: "Source Sans Pro", sans-serif;
 }
 body {
-    background: linear-gradient(180deg, rgba(164, 136, 64, 0.94) 19.06%, rgba(126, 1, 88, 0.89) 100%);
+    background: linear-gradient(246deg, rgba(164, 136, 64, 0.94) 19.06%, rgba(126, 1, 88, 0.89) 100%);
+    height: 2047px;
 }
 header h1 {
     margin: 7px;
@@ -91,11 +92,41 @@ main .second_text p {
     margin-top: 166px;
     margin-bottom: 20px;
 }
-main .button_come_back img {
-    display: block;
-    margin: 0 auto;
-    margin-top: 40px;
-    margin-bottom: 20px;
-    width: 184.24px;
-    height: 71px;
+footer {
+    display: inline-flex;
+    width: 100%;
+    position: absolute;
+    top: 1965px;
+    justify-content: center;
+}
+footer div a {
+    width: 55px;
+    height: 55px;
+}
+footer .icon {
+    margin: 0 20px;
+}
+footer .r_identidad {
+    background-image: url('../styles/assets/icons/help-circle.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 55px;
+    height: 55px;
+}
+footer .r_home {
+    background-image: url('../styles/assets/icons/home.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 55px;
+    height: 55px;
+}
+footer .r_mariachi {
+    background-image: url('../styles/assets/icons/mariachi.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 55px;
+    height: 55px;
 }

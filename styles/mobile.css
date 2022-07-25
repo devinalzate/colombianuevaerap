@@ -62,11 +62,12 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
-.menu-header .a-contacto {
+.menu-header .a-mariachi {
     position: absolute;
+    margin: 0px -10px;
     width: 36px;
     height: 36px;
-    background-image: url('./assets/icons/inbox.svg');
+    background-image: url('./assets/icons/mariachi.svg');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -248,9 +249,19 @@ main #clientes .ver-mas {
     background-repeat: no-repeat;
     background-position: center;
 }
+main #mariachi {
+    position: absolute;
+    top: 1591px;
+    width: 320px;
+    height: 493.5px;
+    background-color: var(--rojo-claro);
+}
+main #mariachi p{
+    color: var(--amarillo-blanco);
+}
 footer {
     position: absolute;
-    top: 2122px;
+    top: 2721px;
     width: 100vw;
     height: 70px;
     background-color: var(--morado-oscuro);

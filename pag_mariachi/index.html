@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mariachi Colombia Nueva Era</title>
+    <link rel="icon" href="./styles/assets/img/icon_pag.png">
+    <!-- Estilos -->
+    <link rel="stylesheet" href="./styles/mobile.css">
+    <!-- Estilos -->
+    <!-- Fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Source+Sans+Pro:ital,wght@0,700;1,300;1,400&display=swap" rel="stylesheet">
+    <!-- Fuentes -->
+</head>
+<body>
+    <div class="background">
+        <img src="./styles/assets/img/humo_3.png" alt="" height="600px">
+    </div>
+    <header>
+        <div class="img_header">
+            <img src="./styles/assets/img/mariachi.png" alt="Mariachi">
+        </div>
+    </header>         
+    <main>
+        <section class="main_text">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error id, consectetur itaque unde perspiciatis ad praesentium, porro doloribus velit necessitatibus alias eius soluta. Iusto illum facilis dolorem quae voluptates maiores.</p>
+        </section>
+        <section class="video_container">
+            <div class="video"></div>
+            <script src="https://www.paypal.com/sdk/js?client-id=Adtab56ntkr_b9M3g5mzvJgmjsHpfnLHya89lNmEMCohuknRYZoaF9QUaacrjgRBnA2F-9KYE8RYAWgB&currency=COP"></script>
+            <div id="paypal-button-container">
+                <style>
+                    {
+                        position: absolute;
+                        top: 1000px
+                    }
+                </style>
+            </div>
+            <script>
+            paypal.Buttons({
+                // Sets up the transaction when a payment button is clicked
+                createOrder: (data, actions) => {
+                  return actions.order.create({
+                    purchase_units: [{
+                      amount: {
+                        value: '24.000' // Can also reference a variable or function
+                      }
+                    }]
+                  });
+                },
+                // Finalize the transaction after payer approval
+                onApprove: (data, actions) => {
+                  return actions.order.capture().then(function(orderData) {
+                    // Successful capture! For dev/demo purposes:
+                    console.log('Capture result', orderData, JSON.stringify(orderData, null, 2));
+                    const transaction = orderData.purchase_units[0].payments.captures[0];
+                    alert(`Transaction ${transaction.status}: ${transaction.id}\n\nSee console for all available details`);
+                    // When ready to go live, remove the alert and show a success message within this page. For example:
+                    // const element = document.getElementById('paypal-button-container');
+                    // element.innerHTML = '<h3>Thank you for your payment!</h3>';
+                    // Or go to another URL:  actions.redirect('thank_you.html');
+                  });
+                }
+              }).render('#paypal-button-container');
+            </script>
+        </section>
+    </main>
+</body>
+</html>

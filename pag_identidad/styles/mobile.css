@@ -98,11 +98,41 @@ header img {
     width: 304px;
     height: 170px;
 }
-.main_text .icon_back {
-    position: inherit;
-    top: 247px;
-    left: calc(50% - 105px);
-    padding: 10px;
-    width: 184.24px;
-    height: 71px;
+footer {
+    display: inline-flex;
+    width: 100%;
+    position: absolute;
+    top: 1892px;
+    justify-content: center;
+}
+footer div a {
+    width: 55px;
+    height: 55px;
+}
+footer .icon {
+    margin: 0 20px;
+}
+footer .r_experiencia {
+    background-image: url('../styles/assets/icons/check-square.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 55px;
+    height: 55px;
+}
+footer .r_home {
+    background-image: url('../styles/assets/icons/home.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 55px;
+    height: 55px;
+}
+footer .r_mariachi {
+    background-image: url('../styles/assets/icons/mariachi.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 55px;
+    height: 55px;
 }
