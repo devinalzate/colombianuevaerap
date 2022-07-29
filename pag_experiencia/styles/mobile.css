@@ -130,3 +130,27 @@ footer .r_mariachi {
     width: 55px;
     height: 55px;
 }
+@media (min-width: 768px) {
+    body {
+        height: 2142px;
+    }
+    footer {
+        top: 2058px;
+    }
+}
+@media (min-width: 1024px) {
+    body {
+        height: 2193px;
+    }
+    footer {
+        top: 2118px;
+    }
+}
+@media (min-width: 1250px) {
+    body {
+        height: 1908px;
+    }
+    footer {
+        top: 1791px;
+    }
+}

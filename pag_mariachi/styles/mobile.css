@@ -59,3 +59,9 @@ main .video_container .video {
     width: 290px;
     height: 180px;
 }
+main .video_container a img{
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    top: 29px;
+}

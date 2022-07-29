@@ -250,14 +250,23 @@ main #clientes .ver-mas {
     background-position: center;
 }
 main #mariachi {
+    display: inline-flex;
     position: absolute;
+    width: 100%;
     top: 1591px;
-    width: 320px;
-    height: 493.5px;
-    background-color: var(--rojo-claro);
+    left: 8px;
+    justify-content: center;
 }
-main #mariachi p{
-    color: var(--amarillo-blanco);
+main #mariachi .img_background img {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 500px;
+}
+main #mariachi .img_conocenos img {
+    margin: 0 auto;
+    position: absolute;
+    left: calc(50% - 70px);
+    top: 210px;
 }
 footer {
     position: absolute;

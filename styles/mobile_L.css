@@ -36,8 +36,11 @@ main #clientes .rancho {
 main #clientes .ver-mas {
     top: 343px;
 }
+main #mariachi {
+    top: 1657px;
+}
 footer {
-    top: 2199px;
+    top: 2745px;
 }
 footer #contacto {
     left: 38px;
