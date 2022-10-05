@@ -3,16 +3,16 @@ main #identidad {
     left: calc(50% - 368px);
 }
 main #experiencia .exp-texto {
-    margin-top: 13px;
+    margin-top: 76px;
     margin-left: 51px;
     width: 190px;
 }
 main #experiencia .img-experiencia {
-    top: calc(30% - 72px);
-    left: calc(65% - 91px);
-    width: 20vw;
-    max-width: 332.2px;
-    height: 329px;
+    top: calc(30% - 29px);
+    left: calc(65% - 56px);
+    width: 16vw;
+    max-width: 364.2px;
+    height: 277px;
 }
 main #clientes {
     left: 45px;
