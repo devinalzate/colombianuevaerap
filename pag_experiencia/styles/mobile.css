@@ -130,20 +130,28 @@ footer .r_mariachi {
     width: 55px;
     height: 55px;
 }
-@media (min-width: 768px) {
-    body {
-        height: 2142px;
+@media (min-width: 600px) {
+    body{
+        height: 2244px;
     }
     footer {
-        top: 2058px;
+        margin-top: 136px;
+    }
+}
+@media (min-width: 768px) {
+    body {
+        height: 2244px;
+    }
+    footer {
+        /* top: 2058px; */
     }
 }
 @media (min-width: 1024px) {
     body {
-        height: 2193px;
+        height: 2244px;
     }
     footer {
-        top: 2118px;
+        /* top: 2118px; */
     }
 }
 @media (min-width: 1250px) {
@@ -151,6 +159,6 @@ footer .r_mariachi {
         height: 1908px;
     }
     footer {
-        top: 1791px;
+        margin-top: -222px;
     }
 }
