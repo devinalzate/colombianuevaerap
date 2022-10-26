@@ -13,14 +13,14 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    image-rendering: auto;
 }
 html {
     font-size: 62.5%;
     font-family: "Source Sans Pro", sans-serif;
 }
 body {
-    background: linear-gradient(178.33deg, #180004 7.24%, #0D0764 40.35%, #52006D 57.58%, #180004 89.37%);
-    height: 192vh;
+    background-color: var(--azul-oscuro);
 }
 .menu-header {
     min-width: 300px;
@@ -95,7 +95,7 @@ main #identidad {
     width: 96.5vw;
     height: 440px;
     margin: 70px 6px;
-    background: rgba(24, 0, 4, 0.68);
+    background: rgba(24, 0, 4, 0.78);
     box-shadow: -1px 19px 14px rgba(0, 0, 0, 0.69);
     border-radius: 23px;
 }
@@ -164,7 +164,7 @@ main #experiencia {
     width: 96.5vw;
     height: 416px;
     margin: 70px 6px;
-    background: linear-gradient(180deg, rgba(164, 136, 64, 0.94) 19.06%, rgba(208, 55, 161, 0.89) 100%);
+    background: rgba(24, 0, 4, 0.78);
     box-shadow: -1px 19px 14px rgba(0, 0, 0, 0.69);
     border-radius: 23px;   
 }
@@ -174,7 +174,7 @@ main #experiencia h1 {
     font-size: 2.6rem;
     font-weight: 700;
     line-height: 33px;
-    color: var(--morado-oscuro);
+    color: var(--amarillo);
 }
 main #experiencia .exp-texto {
     position: absolute;
@@ -185,7 +185,7 @@ main #experiencia .exp-texto {
     font-weight: 700;
     font-size: 1.8rem;
     line-height: 35px;
-    color: var(--morado-claro);
+    color: var(--amarillo-blanco);
 }
 main #experiencia .img-experiencia {
     position: absolute;
@@ -217,7 +217,7 @@ main #clientes {
     height: 339px;
     left: 5px;
     top: 1186px;
-    background: rgba(78, 0, 1, 0.71);
+    background: rgba(24, 0, 4, 0.78);
     box-shadow: -1px 19px 14px rgba(0, 0, 0, 0.69);
     border-radius: 23px;
 }
@@ -227,7 +227,7 @@ main #clientes h1 {
     font-size: 2.6rem;
     font-weight: bold;
     line-height: 32.70px;
-    color: var(--amarillo-blanco);
+    color: var(--amarillo);
 }
 main #clientes .rancho {
     position: absolute;
@@ -270,7 +270,7 @@ main #mariachi .img_conocenos img {
 }
 footer {
     position: absolute;
-    top: 2721px;
+    top: 2200px;
     width: 100vw;
     height: 70px;
     background-color: var(--morado-oscuro);

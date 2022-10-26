@@ -1,0 +1,81 @@
+[33mcommit e30a9b03fb5aab8af2e08fc03be739b66858115e[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Devin Alzate <devinalzate2005@gmail.com>
+Date:   Tue Oct 4 19:18:37 2022 -0500
+
+    Cambio de dimensiones tar_exp
+
+[33mcommit 91367122d3c4781820152ad363babcaa6a615496[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: Devin Alzate <devinalzate2005@gmail.com>
+Date:   Tue Sep 6 20:04:08 2022 -0500
+
+    prueba de video
+
+[33mcommit 01288de4b5cda01ccbcd449387c2ad7563b5675e[m
+Author: Devin Alzate <devinalzate2005@gmail.com>
+Date:   Fri Jul 29 16:37:54 2022 -0500
+
+    Cambios del responsive e iconos, link, y se añadio el boton de pago en la pagina mariachi
+
+[33mcommit 587c786bac8358d9d088ec0cfd1bb840d1a40d7e[m
+Merge: 2ddb2e4 a2b046c
+Author: Devin Alzate <devinalzate2005@gmail.com>
+Date:   Sun Jul 24 20:43:28 2022 -0500
+
+    Merge branch 'master' of github.com:devinalzate/colombianuevaerap
+
+[33mcommit 2ddb2e4cba25b9d9a1c6304284e0e1325730b5a6[m
+Author: Devin Alzate <devinalzate2005@gmail.com>
+Date:   Sun Jul 24 20:43:19 2022 -0500
+
+    se añade el pay to view
+
+[33mcommit a2b046cf872583f1f469a24def87da3186614c39[m
+Merge: 435afdc f1e14d4
+Author: devinalzate <98599273+devinalzate@users.noreply.github.com>
+Date:   Sat Jun 4 21:57:47 2022 -0500
+
+    Merge pull request #2 from devinalzate/pruebas1
+    
+    Prueba cambio de link
+
+[33mcommit f1e14d4431b11e27ac8c66042f478fabaf471155[m
+Author: devinalzate <98599273+devinalzate@users.noreply.github.com>
+Date:   Sat Jun 4 21:54:22 2022 -0500
+
+    Prueba cambio de link
+
+[33mcommit 435afdc03bb88e5d98496f0f6535137b08c49235[m
+Author: devinalzate <98599273+devinalzate@users.noreply.github.com>
+Date:   Sat Jun 4 18:20:02 2022 -0500
+
+    Se le quita el ver mas a los clientes
+
+[33mcommit e3b827ada9de2f907418ddd7cbec4ce7d79e3487[m
+Author: Devin Alzate <devinalzate2005@gmail.com>
+Date:   Sat Jun 4 17:33:54 2022 -0500
+
+    se añade la pag. experiencia
+
+[33mcommit 10566b31d1278e2eaa45fa26909618654d40ab84[m
+Author: Devin Alzate <devinalzate2005@gmail.com>
+Date:   Sat May 28 18:31:44 2022 -0500
+
+    Se añade la pag. identidad con extension del ver mas
+
+[33mcommit 8fd73e7db9a0c6b3fdf2bad8183dfa28ab085e9a[m
+Author: Devin Alzate <devinalzate2005@gmail.com>
+Date:   Sun May 15 19:25:49 2022 -0500
+
+    Iconos y enlaces
+
+[33mcommit 0e005c680ef299cd69aff00fd9a5db0ab54c3b08[m
+Author: Devin Alzate <devinalzate2005@gmail.com>
+Date:   Tue May 10 22:55:24 2022 -0500
+
+    v 2.0
+
+[33mcommit 03b71c418fdd7e47ab9deaaa907b4e1f31f68599[m
+Author: Devin Alzate <devinalzate2005@gmail.com>
+Date:   Fri Apr 29 00:59:03 2022 -0500
+
+    v 1.0

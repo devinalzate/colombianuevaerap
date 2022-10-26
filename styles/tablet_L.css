@@ -12,7 +12,7 @@ main #identidad .ver-mas {
     top: 550px;
 }
 main #experiencia {
-    top: 692px;
+    top: 747px;
     left: calc(60% - 30px);
     height: 411px;
     width: 44vw;
@@ -33,7 +33,7 @@ main #experiencia .ver-mas {
     top: 395px;
 }
 main #clientes {
-    top: 692px;
+    top: 747px;
     left: 12px;
     height: 411px;
     width: 44vw;
@@ -53,5 +53,5 @@ main #mariachi {
     left: 29px;
 }
 footer {
-    top: 2221px;
+    top: 1820px;
 }

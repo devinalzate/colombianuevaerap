@@ -22,7 +22,7 @@ html {
 }
 body {
     background: linear-gradient(246deg, rgba(164, 136, 64, 0.94) 19.06%, rgba(126, 1, 88, 0.89) 100%);
-    height: 2047px;
+    height: 2100px;
 }
 header h1 {
     margin: 7px;
@@ -96,7 +96,7 @@ footer {
     display: inline-flex;
     width: 100%;
     position: absolute;
-    top: 1965px;
+    top: 2028px;
     justify-content: center;
 }
 footer div a {
