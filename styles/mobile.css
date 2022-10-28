@@ -80,6 +80,7 @@ header .img-header {
     background-position: calc(26.5%);
     background-size: cover;
     background-repeat: no-repeat;
+    box-shadow: -7px 0px 110px 8px rgb(222 209 31);
 }
 main {
     display: block;
@@ -96,7 +97,7 @@ main #identidad {
     height: 440px;
     margin: 70px 6px;
     background: rgba(24, 0, 4, 0.78);
-    box-shadow: -1px 19px 14px rgba(0, 0, 0, 0.69);
+    box-shadow: -7px 0px 110px 8px rgb(222 209 31);
     border-radius: 23px;
 }
 main #identidad h1 {
@@ -165,7 +166,7 @@ main #experiencia {
     height: 416px;
     margin: 70px 6px;
     background: rgba(24, 0, 4, 0.78);
-    box-shadow: -1px 19px 14px rgba(0, 0, 0, 0.69);
+    box-shadow: -7px 0px 110px 8px rgb(222 209 31);
     border-radius: 23px;   
 }
 main #experiencia h1 {
@@ -218,7 +219,7 @@ main #clientes {
     left: 5px;
     top: 1186px;
     background: rgba(24, 0, 4, 0.78);
-    box-shadow: -1px 19px 14px rgba(0, 0, 0, 0.69);
+    box-shadow: -7px 0px 110px 8px rgb(222 209 31);
     border-radius: 23px;
 }
 main #clientes h1 {

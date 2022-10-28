@@ -10,7 +10,7 @@ main {
     left: 5px;
 }
 main #identidad {
-    margin: 86px 6px;
+    margin: 127px 6px;
     max-width: 772px;
 }
 main #identidad h1 {
@@ -39,6 +39,6 @@ main #experiencia .img-experiencia {
     height: 381px;
 }
 main #clientes {
-    left: 92px;
+    left: calc(50% - 190px);
     max-width: 410.7px;
 }
