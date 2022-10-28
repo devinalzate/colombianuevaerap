@@ -230,10 +230,15 @@ main #clientes h1 {
     line-height: 32.70px;
     color: var(--amarillo);
 }
-main #clientes .rancho {
+main #clientes .images{
+    display: flex;
+    justify-content: center;
+}
+main #clientes .images .logos {
     position: absolute;
     width: 300px;
     height: 241px;
+    margin: 0 auto;
     background-image: url('./assets/img/fotos-clientes.jpg');
     background-position: center;
     background-size: cover;
