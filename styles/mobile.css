@@ -73,58 +73,87 @@ body {
 }
 header .img-header {
     position: absolute;
-    top: 125px;
+    top: 2px;
     min-width: 100vw;
     height: 340px;
     background-image: url('./assets/img/imh_header.jpg');
     background-position: calc(26.5%);
     background-size: cover;
     background-repeat: no-repeat;
-    box-shadow: -7px 0px 110px 8px rgb(222 209 31);
+    box-shadow: -7px 0px 110px 16px var(--azul-claro);
 }
 main {
     display: block;
     position: absolute;
     width: 95vw;
     height: auto;
-    top: 555px;
-    justify-content: center;
+    top: 424px;
     margin: 0 auto;
+}
+main #imgs_contain .shadow{
+    position: absolute;
+    box-shadow: inset 200px 200px 300px 189px rgba(0,0,0,0.75);
+    top: 127px;
+    width: 100vw;
+    height: 623px;
+}
+main #img_1 {
+    position: static;
+    width: 100vw;
+    height: 552px;
+    margin-top: 127px;
 }
 main #identidad {
     position: absolute;
-    width: 96.5vw;
-    height: 440px;
-    margin: 70px 6px;
-    background: rgba(24, 0, 4, 0.78);
-    box-shadow: -7px 0px 110px 8px rgb(222 209 31);
-    border-radius: 23px;
+    width: 100vw;
+    height: 679px;
+    margin: 70px 0px;
+    /* background: rgba(24, 0, 4, 0.78);
+    box-shadow: -7px 0px 110px 30px var(--rojo-oscuro);
+    border-radius: 23px; */
 }
-main #identidad h1 {
+main #quienes {
     position: absolute;
     margin-top: 10px;
-    width: 205px;
-    height: 79.19px;
-    left: calc(50% - 107px);
+    left: calc(50% - 100px);
     font-style: normal;
+    font-family: 'Oswald', sans-serif;
     font-weight: bold;
-    font-size: 2.8rem;
+    font-size: 3.8rem;
     line-height: 35px;
     text-align: center;
+    justify-content: center;
     color: var(--amarillo);
 }
 main #identidad .texto {
     position: absolute;
-    width: 211px;
+    width: 60%;
     height: 94.59px;
-    left: calc(50% - 105px);
-    top: calc(23% - 5px);
+    left: calc(50% - 93px);
+    top: -597px;
     font-style: normal;
+    font-family: 'Dosis', sans-serif;
     font-weight: 400;
-    font-size: 1.8rem;
+    font-size: 1.85rem;
     line-height: 23px;
     text-align: center;
-    color: var(--amarillo-blanco);
+    color: white;
+    text-shadow: 0 0 0.2em black, 0 0 0.2em black, 0 0 0.2em black;
+}
+main #identidad .texto2 {
+    position: absolute;
+    width: 60%;
+    height: 94.59px;
+    right: calc(50% - 101px);
+    top: -300px;
+    font-style: normal;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 400;
+    font-size: 1.85rem;
+    line-height: 23px;
+    text-align: center;
+    color: white;
+    text-shadow: 0 0 0.2em black, 0 0 0.2em black, 0 0 0.2em black;
 }
 main #identidad .texto ul {
     position: absolute;
@@ -133,20 +162,6 @@ main #identidad .texto ul {
     margin-top: 10px;
     list-style: inside;
     line-height: 2.4rem;
-}
-main #identidad .img-identidad {
-    display: block;
-    align-items: center;
-    position: absolute;
-    background-image: url('./assets/img/img_identidad.jpg');
-    height: 200px;
-    width: 93vw;
-    left: 6px;
-    top: calc(55% - 8px);
-    border-radius: 16px;
-    background-position:  center;
-    background-size: cover;
-    background-repeat: no-repeat;
 }
 main #identidad .ver-mas {
     position: absolute;
@@ -166,7 +181,7 @@ main #experiencia {
     height: 416px;
     margin: 70px 6px;
     background: rgba(24, 0, 4, 0.78);
-    box-shadow: -7px 0px 110px 8px rgb(222 209 31);
+    box-shadow: -7px 0px 110px 30px var(--rojo-oscuro);
     border-radius: 23px;   
 }
 main #experiencia h1 {
@@ -219,7 +234,7 @@ main #clientes {
     left: 5px;
     top: 1186px;
     background: rgba(24, 0, 4, 0.78);
-    box-shadow: -7px 0px 110px 8px rgb(222 209 31);
+    box-shadow: -7px 0px 110px 30px var(--rojo-oscuro);
     border-radius: 23px;
 }
 main #clientes h1 {
