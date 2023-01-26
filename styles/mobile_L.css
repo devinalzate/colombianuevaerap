@@ -1,10 +1,18 @@
 /* width: 425px */
 header .img-header {
-    top: 87px;
     height: 454px;
 }
-main #identidad h1 {
-    font-size: 3.6rem;
+main #quienes {
+    margin-top: 87px;
+}
+main #img_1 {
+    margin-top: 199px;
+}
+main #imgs_contain .texto {
+    top: 272px;
+}
+main #imgs_contain .texto2 {
+    top: 514px;
 }
 main #experiencia {
     height: 480px;
