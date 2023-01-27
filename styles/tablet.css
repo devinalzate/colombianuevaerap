@@ -1,6 +1,6 @@
 /* width: 600px */
 header .img-header {
-    top: 70px;
+    top: 2px;
     min-height: 546px;
     min-width: 600px;
     left: calc(50% - 300px);
@@ -9,23 +9,20 @@ header .img-header {
 main {
     left: 5px;
 }
-main #identidad {
-    margin: 127px 6px;
-    max-width: 772px;
+main #quienes {
+    margin-top: 193px;
 }
-main #identidad h1 {
-    margin-top: 43px;
-    left: calc(50% - 195px);
-    font-size: 4rem;
-    line-height: 4rem;
+main #imgs_contain .texto {
+    top: 280px;
+    left: calc(50% - 115px);
 }
-main #identidad .texto {
-    left: calc(50% - -26px);
-    top: 40px;
+main #img_1 {
+    margin-top: 455px;
+    height: 633px;
 }
-main #identidad .img-identidad {
-    left: 14px;
-    top: calc(55% - 58px);
+main #imgs_contain .texto2 {
+    left: calc(55% - 144px);
+    top: 1131px;
     height: 251px;
 }
 main #experiencia .exp-texto {

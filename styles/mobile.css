@@ -94,7 +94,7 @@ main #img_1 {
     position: static;
     width: 100vw;
     height: 552px;
-    margin-top: 127px;
+    margin-top: 328px;
 }
 main #quienes {
     position: absolute;
@@ -118,7 +118,7 @@ main #imgs_contain .texto {
     position: absolute;
     width: 60%;
     height: 94.59px;
-    top: 159px;
+    top: 109px;
     font-style: normal;
     font-family: 'Dosis', sans-serif;
     font-weight: 400;
@@ -132,7 +132,7 @@ main #imgs_contain .texto2 {
     position: absolute;
     width: 60%;
     height: 94.59px;
-    top: 426px;
+    top: 936px;
     font-style: normal;
     font-family: 'Dosis', sans-serif;
     font-weight: 400;
@@ -163,56 +163,40 @@ main #identidad .ver-mas {
 }
 main #experiencia {
     position: absolute;
-    top: 567px;
+    top: 1000px;
     width: 96.5vw;
     height: 416px;
     margin: 70px 6px;
-    background: rgba(24, 0, 4, 0.78);
-    box-shadow: -7px 0px 110px 30px var(--rojo-oscuro);
-    border-radius: 23px;   
 }
 main #experiencia h1 {
     text-align: center;
     margin-top: 26px;
-    font-size: 2.6rem;
+    font-size: 3.6rem;
     font-weight: 700;
+    font-family: 'Oswald', sans-serif;
     line-height: 33px;
     color: var(--amarillo);
 }
-main #experiencia .exp-texto {
+main #experiencia p {
+    display: block;
+    justify-content: center;
     position: absolute;
-    width: 142px;
-    margin-top: 35px;
-    margin-left: 30px;
-    margin-right: 10px;
-    font-weight: 700;
-    font-size: 1.8rem;
+    top: 120px;
+    margin: 0 32px;
+    width: 80%;
+    font-weight: 300;
+    font-size: 1.85rem;
     line-height: 35px;
-    color: var(--amarillo-blanco);
+    font-family: 'Dosis', sans-serif;
+    color: white;
+    text-align: center;
 }
-main #experiencia .img-experiencia {
+main #img_2 {
     position: absolute;
-    width: 40vw;
+    width: 100vw;
     height: 210px;
-    border-radius: 16px;
-    background-image: url('./assets/img/img_experiencia.jpg');
-    left: calc(65% - 25px);
-    top: calc(30% - -4px);
-    border-radius: 16px;
-    background-position:  center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-main #experiencia .ver-mas {
-    position: absolute;
-    top: 395px;
-    left: calc(50% - 60px);
-    width: 110px;
-    height: 35px;
-    background-image: url('./assets/icons/ver-mas.svg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+    top: 607px;
+    left: -6px;
 }
 main #clientes {
     position: absolute;
@@ -278,7 +262,7 @@ main #mariachi .img_conocenos img {
 }
 footer {
     position: absolute;
-    top: 2200px;
+    top: 2356px;
     width: 100vw;
     height: 70px;
     background-color: var(--morado-oscuro);
